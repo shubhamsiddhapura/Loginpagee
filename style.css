@@ -1,0 +1,109 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(green.jpg);
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    width: 925px;
+    height: 632px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leftpanel {
+    background-color: #084d3f;
+    color: #d7e8d0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 40%;
+}
+
+.logo{
+    height: 80px;
+    width: 130px;
+}
+
+.leftpanel p {
+    font-size: 2rem;
+    color: #FFEEA9;
+    font-weight:500;
+    padding-top: 19rem;
+    padding-left: 0.3rem;
+    line-height: 1.1;
+}
+
+.rightpanel {
+   
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+}
+
+.rightpanel h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color:black;
+}
+
+form {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:black;
+}
+
+form input {
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form button {
+
+    font-size: 16px;
+    background-color: #1ba98d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25rem;
+    height: 4rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #16a085;
+}
+
+.terms{
+    padding-top: 7rem;
+    color: #808080;
+    font-size: 12px;
+   
+}
